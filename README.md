@@ -1,9 +1,9 @@
-# BO-PBK.jl (Released on 2026-05-28)  
+# BOPBK.jl (Released on 2026-05-28)  
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20434445.svg)](https://doi.org/10.5281/zenodo.20434445)
 **Version 1.0** | [GitHub Repository](https://github.com/baiweiphys/BOPBK.jl/)
 
-**`BO-PBK.jl`** (BO–Product-Bi-Kappa) is a Julia numerical code developed by Wei Bai, under the supervision of Dr. Huasheng Xie, who also proposed the BO framework. It is designed for analyzing plasma waves and instabilities in both space and laboratory plasmas, specializing in obliquely propagating waves in magnetized, multi-species hot plasmas.
+**`BOPBK.jl`** (BO–Product-Bi-Kappa) is a Julia numerical code developed by Wei Bai, under the supervision of Dr. Huasheng Xie, who also proposed the BO framework. It is designed for analyzing plasma waves and instabilities in both space and laboratory plasmas, specializing in obliquely propagating waves in magnetized, multi-species hot plasmas.
 
 
 The code supports a wide range of multi-component velocity distribution functions, such as:
