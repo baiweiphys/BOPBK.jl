@@ -15,8 +15,6 @@ include("../src/getPlasmaParameters.jl")
 
 
 # using CSV, DataFrames
-
-# 这是最简单的方法，CSV.jl 会自动处理多余空格
 df = CSV.read("./bopbk.in", DataFrame;
     delim=' ',
     header=true,
