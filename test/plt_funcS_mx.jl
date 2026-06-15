@@ -42,7 +42,7 @@ for i in 1:num
 end
 
 
-gr()  # GR后端通常更接近MATLAB风格
+gr()  # MATLAB风格
 
 # plots
 h = plot(size=(600, 600), dpi=100)  
