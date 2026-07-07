@@ -14,7 +14,6 @@ The code supports a wide range of multi-component velocity distribution function
 
 
 ## Developer & Supervisor
-
 **Wei Bai** (Developer)  
 College of Electrical and Power Engineering  
 Taiyuan University of Technology  
@@ -30,7 +29,6 @@ Email: huashengxie@gmail.com
 ## Program Description
 
 **BO-PBK** is a comprehensive code for simultaneously solving all significant roots of the dispersion relation for obliquely propagating waves in magnetized multi-species plasmas.
-
 The code supports various velocity distribution functions, including:
 - Anisotropic drift loss-cone product-bi-Kappa (Type I PBK)
 - Anisotropic drift loss-cone kappa-Maxwellian (Type I KM)
@@ -40,7 +38,6 @@ The code supports various velocity distribution functions, including:
 Benchmark tests confirm that the solver accurately reproduces standard kinetic results and efficiently resolves waves and instabilities. BO-PBK provides a robust and computationally efficient tool for wave and stability analysis in complex plasma systems relevant to both space and laboratory applications.
 
 ## Input Parameters
-
 The background magnetic field is denoted as $B_0$ (in Tesla), the oblique propagation angle as $\theta$ (in degrees), $J$ as a non-negative integer for $J$-pole expansion, and `nk` as the number of grid points.
 
 The `bopbk.in` file requires the following parameters for each species $s$:
@@ -56,7 +53,6 @@ The `bopbk.in` file requires the following parameters for each species $s$:
 
 
 ## Benchmark Examples
-
 Five benchmark cases are provided as representative examples in `runall.ipynb`:
 1. R-, L-, and P-mode waves
 2. Whistler instability
@@ -64,13 +60,27 @@ Five benchmark cases are provided as representative examples in `runall.ipynb`:
 4. EMIC waves
 5. Beam-mode
 
-## References
-Wei Bai, and Huasheng Xie. “BO-PBK: A comprehensive solver for dispersion relations of obliquely propagating waves in magnetized multi-species plasma with anisotropic loss-cone drift product-bi-kappa distribution.” arXiv preprint arXiv:2512.06901, 2025, https://arxiv.org/abs/2512.06901.
+## When referencing `BO-PBK` in a publication, please cite:
+```bibtex
+@article{BAI2026110281,
+title = {BO-PBK: A new solver for dispersion relations of obliquely propagating waves in multi-species plasmas with anisotropic loss-cone drift product-bi-kappa distributions},
+journal = {Computer Physics Communications},
+volume = {327},
+pages = {110281},
+year = {2026},
+issn = {0010-4655},
+doi = {https://doi.org/10.1016/j.cpc.2026.110281},
+url = {https://www.sciencedirect.com/science/article/pii/S0010465526002638},
+author = {Wei Bai and Huasheng Xie},
+}
+```
+
+[Computer Physics Communications 327 (2026) 110281]: https://doi.org/10.1016/j.cpc.2026.110281
+[CPC Library link to program files]: https://doi.org/10.17632/zy3nhcr7xf.1
 
 
 
 ## License
-
 This project is licensed under the BSD 3-Clause License — see the [LICENSE](LICENSE) file for details.
 
 ---
